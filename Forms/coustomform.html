@@ -1,0 +1,173 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+
+    <title>Forms</title>
+    <!-- bootstraplinks -->
+    <link rel="stylesheet" href="./css/css/bootstrap.css"/>
+    <!-- fontawsome links -->
+    <link
+      rel="stylesheet"
+      href="https://use.fontawesome.com/releases/v5.1.1/css/all.css"
+      integrity="sha384-O8whS3fhG2OnA5Kas0Y9l3cfpmYjapjI0E4theH4iuMD+pLhbf6JI0jIMfYcK3yZ"
+      crossorigin="anonymous"
+    />
+    <!-- Css links -->
+    <link rel="stylesheet" href="./css/coustomform.css" />
+  </head>
+  <body class="bg-dark">
+    <!-- vertical nav start -->
+
+    <div class="container-fluid p-0" id="main">
+      <div class="bar">
+        <div class="logo bg-dark d-flex justify-content-center"><img class="" src="./images/demologo.png" alt=""></div>
+      </div>
+      <!-- <div class="manimage"><img class="d-fixed"  width="100%"  src="./images/man.png" alt="maninimage"></div> -->
+
+      <div class="bgmedia"><video class="vido"   loop muted autoplay  plays-inline class="d-fixed"  width="100%"  src="../Forms/images/Pexels Videos 1409899 (2).mp4"></video> </div>
+
+
+      <div class="form-content border border-dark m-5 w-60 shadow p-3 mb-5 bg-body rounded ">
+        <h3 class="text-center mt-3">Enter your details here:</h2>
+        <div class="row p-5">
+          <!-- first section of form -->
+          <div class="col-md-6">
+            
+            <div class="form-group">
+              <label for="">Full Name</label>
+              <input class="form-control" type="text">
+            </div>
+
+          <div class="form-group">
+            <label for="">Email</label>
+            <input class="form-control" type="email">
+          </div>
+
+          <div class="form-group">
+            <label for="">Password</label>
+            <input class="form-control" type="password">
+          </div>
+
+          <div>
+            <label class="form-check-label font-wight-bold" for="">Gender</label>
+            <div>
+              <label class="form-check-label" for="">Male</label>
+              <input name="gender" type="radio">
+              <label class="form-check-label" for="">female</label>
+              <input name="gender" type="radio">
+            </div>
+          </div>
+
+           
+          </div>
+          <!-- first section end -->
+
+          <!-- second section of form -->
+          <div class="col-md-6">
+
+            <div class="form-group">
+              <label for="">User Name</label>
+              <input class="form-control" type="text">
+            </div>
+
+          <div class="form-group">
+            <label for="">Phone Number</label>
+            <input class="form-control" type="number">
+          </div>
+
+          
+          <div class="form-group">
+            <label for="">confirm Password</label>
+            <input class="form-control" type="password">
+          </div>
+
+          </div>
+             <!-- second section of end -->
+         <!-- button start -->
+          <button class="bb btn btn-primary m-4 mx-5 mb-4 shadow bg-body rounded ">Submit</button>
+          <!-- button end -->
+
+
+
+          <!-- second section end  -->
+        </div>
+      </div>
+
+
+      <!-- second form content -->
+      <div class=" m-5 bg-warning">
+        <!-- second row -->
+      <div class="row p-5">
+
+        <!-- second row first col -->
+        <div class="col-sm-6">
+          <div class="form-group" > 
+            <label for="">DOB</label>
+            <input class="form-control" type="date">
+          </div>
+
+          <label for="">Hobbies</label>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="words1">
+            <label class="form-check-label" for="words1">Lorem, ipsum.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="words2"  >
+            <label class="form-check-label" for="words2">Lorem, ipsum.</label>
+          </div>
+          <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="words3" >
+            <label class="form-check-label" for="words3">Lorem, ipsum.</label>
+          </div>
+
+          
+            <label class="mt-2" for="">country</label>
+          <div class="form-group">
+            <select class="form-control" name="" id="">
+            <option value="">India</option>
+            <option value="">New-zeeland</option>
+            <option value="">USA</option>
+            <option value="">Canada</option>
+            <option value="">Japan</option>
+          </select>
+          </div>
+
+          
+        </div>
+        <!-- second row first col-end -->
+
+        <!-- second row first col -->
+        <div class="col-sm-6">
+
+          <div class="form-group">
+            <label for="">Message</label>
+            <textarea class="form-control"  rows="1" name="" id="" placeholder="Write something here"></textarea>
+          </div>
+
+          <div class="form-group">
+            <label for="">Age</label>
+            <input class="form-control" type="number" min="18" max="50">
+          </div>
+
+          <div class="form-group pt-4">
+            <label for="">Email</label>
+            <input class="form-control" type="email" placeholder="this is readonly mail akshay@gmail.com" readonly>
+          </div>
+        
+        </div>
+        <!-- second row first col-end -->
+        <button class="bb btn btn-primary m-4 mx-5 mb-4 shadow bg-body rounded">Submit</button>
+        
+      </div>
+      <!-- second row end -->
+
+      </div>
+      <!-- second form content-end -->
+      
+    </div>
+    <!-- vertical nav end -->
+  </body>
+</html>

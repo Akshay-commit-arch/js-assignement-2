@@ -1,0 +1,67 @@
+
+  @import url('https://fonts.googleapis.com/css2?family=Alkatra&family=Montserrat:wght@100;300;400;900&display=swap');
+
+
+body{
+    margin: 0;
+    padding: 0;
+}
+
+/* .conatiner{
+    display: inline-block;
+} */
+
+h1{
+    font-family: 'Alkatra', cursive;
+
+}
+
+.text-center{
+   text-align: center;
+}
+.container{
+    background-color: rgb(43, 40, 40);
+}
+
+.mx-auto{
+    margin:auto;
+}
+.row{
+    margin: 5px 5px;
+}
+.button{
+   padding: 30px;
+   margin: 5px;
+   border: solid black 5px;
+   border-radius: 10px;
+   box-shadow: 9px 8px 8px 1px;
+   cursor:pointer;
+
+   font-family: 'Alkatra', cursive;
+}
+
+.flex{
+    display: flex;
+  
+}
+.display-col{
+    flex-direction: column;
+}
+
+.item-center{
+    align-items: center;
+}
+
+.input{
+    height:50px;
+    font-size:20pt;
+
+    
+    margin: 5px;
+    border: solid black 5px;
+    border-radius: 10px;
+    box-shadow: 9px 8px 8px 1px;
+
+
+}
+
